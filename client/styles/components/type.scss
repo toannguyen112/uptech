@@ -1,0 +1,139 @@
+body {
+  @apply text-[1rem] leading-[150%];
+}
+
+.display-1 {
+  @apply text-[38px] leading-[150%] tracking-[-2%];
+}
+
+.display-2 {
+  @apply text-[32px] leading-[130%];
+}
+
+.display-3 {
+  @apply text-[30px] leading-[130%];
+}
+
+.h1 {
+  @apply text-[28px] leading-[150%];
+}
+
+.h2 {
+  @apply text-[26px] leading-[150%];
+}
+
+.title-1 {
+  @apply text-[20px] leading-[150%];
+}
+
+.title-2 {
+  @apply text-[18px] leading-[150%];
+}
+
+.title-3 {
+  @apply text-[16px] leading-[150%];
+}
+
+.body-1 {
+  @apply text-[18px] leading-[150%];
+}
+
+.body-2 {
+  @apply text-[16px] leading-[160%];
+}
+
+.body-3 {
+  @apply text-[14px] leading-[150%];
+}
+
+@screen lg {
+  .display-1 {
+    @apply text-[40px] leading-[150%] tracking-[-2%];
+  }
+
+  .display-2 {
+    @apply text-[36px] leading-[130%];
+  }
+
+  .display-3 {
+    @apply text-[32px] leading-[130%];
+  }
+
+  .h1 {
+    @apply text-[28px] leading-[150%];
+  }
+
+  .h2 {
+    @apply text-[22px] leading-[150%];
+  }
+
+  .title-1 {
+    @apply text-[20px] leading-[150%];
+  }
+
+  .title-2 {
+    @apply text-[18px] leading-[150%];
+  }
+
+  .title-3 {
+    @apply text-[16px] leading-[150%];
+  }
+
+  .body-1 {
+    @apply text-[18px] leading-[150%];
+  }
+
+  .body-2 {
+    @apply text-[16px] leading-[160%];
+  }
+
+  .body-3 {
+    @apply text-[14px] leading-[150%];
+  }
+}
+
+@screen xl {
+  .display-1 {
+    @apply text-[48px] leading-[150%] font-bold tracking-[-2%];
+  }
+
+  .display-2 {
+    @apply text-[40px] leading-[130%] font-bold;
+  }
+
+  .display-3 {
+    @apply text-[36px] leading-[150%] font-bold;
+  }
+
+  .h1 {
+    @apply text-[32px] leading-[150%] font-bold;
+  }
+
+  .h2 {
+    @apply text-[28px] leading-[150%] font-bold;
+  }
+
+  .title-1 {
+    @apply text-[22px] leading-[150%] font-semibold;
+  }
+
+  .title-2 {
+    @apply text-[18px] leading-[150%] font-semibold;
+  }
+
+  .title-3 {
+    @apply text-[16px] leading-[150%] font-semibold;
+  }
+
+  .body-1 {
+    @apply text-[18px] leading-[150%] font-normal font-display;
+  }
+
+  .body-2 {
+    @apply text-[16px] leading-[160%] font-normal font-display;
+  }
+
+  .body-3 {
+    @apply text-[14px] leading-[150%] font-normal font-display;
+  }
+}

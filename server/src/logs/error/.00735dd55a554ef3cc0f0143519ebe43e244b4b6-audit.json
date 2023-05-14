@@ -1,0 +1,160 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/.00735dd55a554ef3cc0f0143519ebe43e244b4b6-audit.json",
+    "files": [
+        {
+            "date": 1680800415567,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-07.log",
+            "hash": "4795e8484a229af0b8ad65ff48c1144ca348befd7d79bf83ff791e674b3a142d"
+        },
+        {
+            "date": 1681026218701,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-09.log",
+            "hash": "6c446ef50fd66723920e0ce6981bf7b77572aec808aa83f543bc509875e235cb"
+        },
+        {
+            "date": 1681096296665,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-10.log",
+            "hash": "6c9d4d3ab9c407ed1eb24fde50a49d82f52ae866b6f0925ea3eac6689d41ffec"
+        },
+        {
+            "date": 1681147040954,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-11.log",
+            "hash": "b8a2d10ccc5dbbacd2f289d6c844f49a75adb0f89a09078a0edd2327afae4c0e"
+        },
+        {
+            "date": 1681235502410,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-12.log",
+            "hash": "bf280ba5f6cd2e0c75653ec6399158e9b583270ded9de3abd2b9269498a98396"
+        },
+        {
+            "date": 1681397050199,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-13.log",
+            "hash": "3ba2c759c159a941a2241e835f7901c7396e5462efb6e1a058a98ab3249e9102"
+        },
+        {
+            "date": 1681468189952,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-14.log",
+            "hash": "046c7f088eb51932f8c7aa84e43d6f4da27def05a8f3a6681509facb45225f3e"
+        },
+        {
+            "date": 1681537828929,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-15.log",
+            "hash": "da13c9df90dc042f2b66a033e81280571a1e491257e083e67c5f75753aa50c7f"
+        },
+        {
+            "date": 1681732682116,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-17.log",
+            "hash": "3ec6f31328f008d6aaf47f26a68add8b474f15f61c68b6f0f42328f637a9b308"
+        },
+        {
+            "date": 1681750806014,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-18.log",
+            "hash": "1e8f3b92bcf27b3b2851f0c25e4deac106ee88dae26554eb1cf2763fb22b8499"
+        },
+        {
+            "date": 1681837765313,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-19.log",
+            "hash": "512912aaeed5105e3e3d9984ecee0bc39fc21a1c47109d9310229a9ad282249b"
+        },
+        {
+            "date": 1681923890128,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-20.log",
+            "hash": "e5db5e128cf6de7cbb147bd0998549157f91f2998a1a787b5e092aac142efe0a"
+        },
+        {
+            "date": 1682080383011,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-21.log",
+            "hash": "ba40455feaf0b644164b9a12008c888fdf053d0dc1f477475cdc20457a47c88b"
+        },
+        {
+            "date": 1682096401124,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-22.log",
+            "hash": "3efd8492dff5cf07c54d5bdfe21e5c97f75a7a1a12a2666a34b0004f7012fde9"
+        },
+        {
+            "date": 1682220483245,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-23.log",
+            "hash": "21d9bb2df1684048e6ae99e5d2785b653c389d67866db03413c26d6c35a3ac82"
+        },
+        {
+            "date": 1682335149452,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-24.log",
+            "hash": "2d790a8f662518418c2c462a625e9397c257711201b1c659d1c1414074217e64"
+        },
+        {
+            "date": 1682419044916,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-25.log",
+            "hash": "19655d583b90958bb45625b2743a76312e170749d6cbad143de37ca81e4dbf01"
+        },
+        {
+            "date": 1682483840045,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-26.log",
+            "hash": "d10c751c6810953e273c6eb50b0213dcbd5a9ba4b33572e1c384635b063ffe8f"
+        },
+        {
+            "date": 1682604318320,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-27.log",
+            "hash": "5994b7f9164dc1df5b70b9445530d70174a5f677ccb7944c85cabdef7384b8a8"
+        },
+        {
+            "date": 1682614885447,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-28.log",
+            "hash": "806eb811e64fbb523b2b36edd2718195a2d1ae8c4d1005aa84c837bfc0ddfa78"
+        },
+        {
+            "date": 1682739439668,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-04-29.log",
+            "hash": "cc2643949b40c04fff6ec80345a2418a0b480bd626a2a6698ad936e45e7e2427"
+        },
+        {
+            "date": 1682938746159,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-01.log",
+            "hash": "4ead3794541a1049a2e125b5617b2077ba0d8b0107135af1223e722828a99566"
+        },
+        {
+            "date": 1683003500765,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-02.log",
+            "hash": "d504d5ebcf1e8bc6a6ffa707802e11c01f432b18381a3c88d861f5915efeefb8"
+        },
+        {
+            "date": 1683096796661,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-03.log",
+            "hash": "d29c1b030f63d8c991d9a51bca429d666f1abcb81e97cab23f0ba4e34e133733"
+        },
+        {
+            "date": 1683197223144,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-04.log",
+            "hash": "160d5f4b0765406482e4ccc95931b8fdc9551dd2b042248d30c34531a0388195"
+        },
+        {
+            "date": 1683220307590,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-05.log",
+            "hash": "0d803dc8f1aa849b3353dcefc4fcc1cd15faa3082971ab2b8143e99d121c4c62"
+        },
+        {
+            "date": 1683308296026,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-06.log",
+            "hash": "8767dbc31368204758c04d8399afb4fedd64ccc49039d407cb9fa25799298127"
+        },
+        {
+            "date": 1683392410581,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-07.log",
+            "hash": "dfcdccedf9ca0d2c174661dad908e3994b47020b672f6827684b4c5837881a96"
+        },
+        {
+            "date": 1683485398766,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-08.log",
+            "hash": "afb4de56e5b416fb56227f8505843ce9ae3b809e8ae12bc7ed6141169d9c47f2"
+        },
+        {
+            "date": 1683732569941,
+            "name": "/Users/toannguyen/Documents/Source/tn-uptech-backend/src/logs/error/2023-05-10.log",
+            "hash": "76be2baca53b49c87c29bf330acee277d055471e148194d638f5273d7311d76d"
+        }
+    ],
+    "hashType": "sha256"
+}

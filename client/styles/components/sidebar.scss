@@ -1,0 +1,31 @@
+.sidebar {
+  @apply h-screen flex flex-col fixed text-[#212121] border-r-2 border-[#F6F5FA] bg-white;
+
+  .nav-link {
+    @apply cursor-pointer w-full px-5 py-[8px] text-[#212121] transition duration-150 text-base flex items-center space-x-[8px] border-l-4 border-transparent;
+
+    &:not(.active) {
+      @apply opacity-70;
+
+      &:hover {
+        @apply opacity-100 text-prime;
+      }
+    }
+
+    &.active {
+      @apply text-prime border-l-4 border-prime bg-[#f6f9fc];
+    }
+  }
+
+  .nav-sub {
+    @apply bg-[#F6F5FA] px-6 py-2 space-y-3 border-l-4 border-white text-[#212121] cursor-pointer;
+  }
+
+  .nav-header {
+    @apply list-none px-6 py-2 uppercase text-xs text-prime;
+
+    &:not(:first-of-type) {
+      margin-top: 0.5rem;
+    }
+  }
+}

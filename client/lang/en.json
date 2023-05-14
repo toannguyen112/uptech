@@ -1,0 +1,26 @@
+{
+  "page.sidebar.das": "Dashboard",
+  "page.sidebar.post": "Post",
+  "page.sidebar.project": "Project",
+  "page.sidebar.ceo": "Ceo",
+  "page.sidebar.role": "Role",
+  "page.sidebar.folder": "Manager File",
+  "page.sidebar.job": "Job",
+  "page.sidebar.account": "Account",
+  "page.sidebar.banner": "Banner",
+  "page.sidebar.branchs": "Branch",
+  "page.sidebar.categories": "Categories",
+  "page.sidebar.services": "Services",
+  "page.sidebar.content": "Content",
+  "page.sidebar.setting": "Setting",
+  "page.sidebar.logout": "Logout",
+  "page.sidebar.permission": "Permission",
+  "page.sidebar.recruitments": "Recruitments",
+  "page.sidebar.contacts": "Contacts",
+
+  "page.admin.btn_new": "New",
+  "page.admin.btn_delete": "Delete",
+  "page.admin.btn_update": "Update",
+  "page.admin.btn_create_folder": "Create Folder",
+  "page.admin.btn_choosen_folder": "Choosen File"
+}

@@ -1,0 +1,7 @@
+.navigation {
+  @apply hidden xl:flex items-center space-x-[2rem] text-gray-900;
+
+  .navigation-item {
+    @apply hover:text-primary font-semibold title-3 cursor-pointer flex items-center space-x-[8px];
+  }
+}

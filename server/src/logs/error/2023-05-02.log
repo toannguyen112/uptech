@@ -1,0 +1,1404 @@
+2023-05-02 12:20:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m80[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery,include :[
+[7m   [0m [91m                                                                               ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m88[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery,include :[
+[7m   [0m [91m                                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m80[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery,include :[
+[7m   [0m [91m                                                                               ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m88[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery,include :[
+[7m   [0m [91m                                                                                       ~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:20:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m81[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include = [
+[7m   [0m [91m                                                                                ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m81[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include = [
+[7m   [0m [91m                                                                                ~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:21:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m81[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m81[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                        ~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:21:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m81[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m81[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m89[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             const { count, rows }: any = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                                        ~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:21:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m52[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                   ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'rows'.
+
+[7m281[0m                 data: rows.map((item: any) => ProjectDTO.transform(item))
+[7m   [0m [91m                      ~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m52[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m266[0m             await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                   ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m23[0m - [91merror[0m[90m TS2304: [0mCannot find name 'rows'.
+
+[7m281[0m                 data: rows.map((item: any) => ProjectDTO.transform(item))
+[7m   [0m [91m                      ~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m266[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m266[0m             await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                           ~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:22:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m245[0m:[93m55[0m - [91merror[0m[90m TS2304: [0mCannot find name 'objQuery'.
+
+[7m245[0m             const rows = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                      ~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m245[0m:[93m65[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m245[0m             const rows = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m255[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'queryTranslation'.
+
+[7m255[0m                     where: queryTranslation
+[7m   [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m245[0m:[93m73[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m245[0m             const rows = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m245[0m:[93m55[0m - [91merror[0m[90m TS2304: [0mCannot find name 'objQuery'.
+
+[7m245[0m             const rows = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                      ~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m245[0m:[93m65[0m - [91merror[0m[90m TS2304: [0mCannot find name 'include'.
+
+[7m245[0m             const rows = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m255[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'queryTranslation'.
+
+[7m255[0m                     where: queryTranslation
+[7m   [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m245[0m:[93m73[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m245[0m             const rows = await models.Project.findAll(objQuery, include : [
+[7m   [0m [91m                                                                        ~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:28:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:29:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:29:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:29:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m230[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m230[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m231[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m232[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m238[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m238[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m239[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m240[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:31:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m256[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m256[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m257[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m258[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m256[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m256[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m257[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m258[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 12:31:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m256[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m256[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m257[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m258[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; } | { model: any; as: string; required: false; where: { id: any; }; } | { model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Type '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+    Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m248[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m248[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m249[0m                         id: query.service_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m250[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m256[0m:[93m21[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: false; where: { id: any; }; }' is not assignable to type '{ model: any; as: string; required: boolean; }'.
+  Object literal may only specify known properties, and 'where' does not exist in type '{ model: any; as: string; required: boolean; }'.
+
+[7m256[0m                     where: {
+[7m   [0m [91m                    ~~~~~~~~[0m
+[7m257[0m                         id: query.branch_id
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[7m258[0m                     }
+[7m   [0m [91m~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 13:06:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/controllers/project.controller.ts[0m:[93m30[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdClient' does not exist on type 'ProjectService'.
+
+[7m30[0m             const data = await project.findByIdClient(id);
+[7m  [0m [91m                                       ~~~~~~~~~~~~~~[0m
+[96msrc/modules/controllers/project.controller.ts[0m:[93m65[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'updateById' does not exist on type 'ProjectService'.
+
+[7m65[0m             const data = await project.updateById(id, req.body);
+[7m  [0m [91m                                       ~~~~~~~~~~[0m
+[96msrc/modules/controllers/project.controller.ts[0m:[93m75[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteMultipleIds' does not exist on type 'ProjectService'.
+
+[7m75[0m             const data = await project.deleteMultipleIds(ids);
+[7m  [0m [91m                                       ~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/controllers/project.controller.ts[0m:[93m84[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteById' does not exist on type 'ProjectService'.
+
+[7m84[0m             const data = await project.deleteById(req.params.id);
+[7m  [0m [91m                                       ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/modules/controllers/project.controller.ts[0m:[93m30[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdClient' does not exist on type 'ProjectService'.
+
+[7m30[0m             const data = await project.findByIdClient(id);
+[7m  [0m [91m                                       ~~~~~~~~~~~~~~[0m
+[96msrc/modules/controllers/project.controller.ts[0m:[93m65[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'updateById' does not exist on type 'ProjectService'.
+
+[7m65[0m             const data = await project.updateById(id, req.body);
+[7m  [0m [91m                                       ~~~~~~~~~~[0m
+[96msrc/modules/controllers/project.controller.ts[0m:[93m75[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteMultipleIds' does not exist on type 'ProjectService'.
+
+[7m75[0m             const data = await project.deleteMultipleIds(ids);
+[7m  [0m [91m                                       ~~~~~~~~~~~~~~~~~[0m
+[96msrc/modules/controllers/project.controller.ts[0m:[93m84[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'deleteById' does not exist on type 'ProjectService'.
+
+[7m84[0m             const data = await project.deleteById(req.params.id);
+[7m  [0m [91m                                       ~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 13:06:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m237[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m237[0m                     BarId: {[Sequelize.Op.eq]: wineBar.id }
+[7m   [0m [91m                             ~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m237[0m:[93m48[0m - [91merror[0m[90m TS2304: [0mCannot find name 'wineBar'.
+
+[7m237[0m                     BarId: {[Sequelize.Op.eq]: wineBar.id }
+[7m   [0m [91m                                               ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m240[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m240[0m             where: {
+[7m   [0m [91m            ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m237[0m:[93m30[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Sequelize'.
+
+[7m237[0m                     BarId: {[Sequelize.Op.eq]: wineBar.id }
+[7m   [0m [91m                             ~~~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m237[0m:[93m48[0m - [91merror[0m[90m TS2304: [0mCannot find name 'wineBar'.
+
+[7m237[0m                     BarId: {[Sequelize.Op.eq]: wineBar.id }
+[7m   [0m [91m                                               ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m240[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m240[0m             where: {
+[7m   [0m [91m            ~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:07:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/project.dto.ts[0m:[93m101[0m:[93m12[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'transformDetailClient'.
+
+[7m101[0m     static transformDetailClient = (item) => {
+[7m   [0m [91m           ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/dtos/project.dto.ts[0m:[93m63[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m63[0m     static transformDetail = (item) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/project.dto.ts[0m:[93m101[0m:[93m12[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'transformDetailClient'.
+
+[7m101[0m     static transformDetailClient = (item) => {
+[7m   [0m [91m           ~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/dtos/project.dto.ts[0m:[93m63[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m63[0m     static transformDetail = (item) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:07:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/project.dto.ts[0m:[93m55[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m55[0m     static transformDetail = (item) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/project.dto.ts[0m:[93m55[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m55[0m     static transformDetail = (item) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:08:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/project.dto.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m49[0m     static transformDetail = (item) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/project.dto.ts[0m:[93m49[0m:[93m5[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m49[0m     static transformDetail = (item) => {
+[7m  [0m [91m    ~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:16:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m236[0m:[93m32[0m - [91merror[0m[90m TS2304: [0mCannot find name 'through'.
+
+[7m236[0m             query.service_id ? through : {
+[7m   [0m [91m                               ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m236[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m236[0m             query.service_id ? through : {
+[7m   [0m [91m                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m240[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m240[0m             } : null
+[7m   [0m [91m              ~[0m
+[96msrc/services/project.service.ts[0m:[93m241[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m241[0m         };
+[7m   [0m [91m        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m236[0m:[93m32[0m - [91merror[0m[90m TS2304: [0mCannot find name 'through'.
+
+[7m236[0m             query.service_id ? through : {
+[7m   [0m [91m                               ~~~~~~~[0m
+[96msrc/services/project.service.ts[0m:[93m236[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m236[0m             query.service_id ? through : {
+[7m   [0m [91m                 ~[0m
+[96msrc/services/project.service.ts[0m:[93m240[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m240[0m             } : null
+[7m   [0m [91m              ~[0m
+[96msrc/services/project.service.ts[0m:[93m241[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m241[0m         };
+[7m   [0m [91m        ~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:19:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m281[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m241[0m:[93m25[0m
+    [7m241[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m282[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m282[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m281[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m241[0m:[93m25[0m
+    [7m241[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m282[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m282[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:20:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m281[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m241[0m:[93m25[0m
+    [7m241[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m282[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m282[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m281[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m241[0m:[93m25[0m
+    [7m241[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m282[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m282[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:21:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m281[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m241[0m:[93m25[0m
+    [7m241[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m282[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m282[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m281[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m281[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m241[0m:[93m25[0m
+    [7m241[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m282[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m282[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:21:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m286[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m286[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m246[0m:[93m25[0m
+    [7m246[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m287[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m287[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m286[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m286[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m246[0m:[93m25[0m
+    [7m246[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m287[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m287[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 15:21:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m286[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m286[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m246[0m:[93m25[0m
+    [7m246[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m287[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m287[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/project.service.ts[0m:[93m286[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; } | { ...; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+  Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+    Type '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; through: { where: { branch_id: { [x: number]: any; }; }; }; include?: undefined; }'.
+      The types of 'through.where' are incompatible between these types.
+        Property 'branch_id' is missing in type '{ service_id: { [x: number]: any; }; }' but required in type '{ branch_id: { [x: number]: any; }; }'.
+
+[7m286[0m                 ...include,
+[7m   [0m [91m                ~~~~~~~~~~[0m
+
+  [96msrc/services/project.service.ts[0m:[93m246[0m:[93m25[0m
+    [7m246[0m                         branch_id: { [models.Sequelize.Op.eq]: query.branch_id }
+    [7m   [0m [96m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    'branch_id' is declared here.
+[96msrc/services/project.service.ts[0m:[93m287[0m:[93m17[0m - [91merror[0m[90m TS2322: [0mType '{ model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; }[]; through: { where: { service_id: { [x: number]: any; }; }; }; }' is not assignable to type '{ model: any; as: string; required: boolean; include?: undefined; through?: undefined; } | { model: any; as: string; required: boolean; include: { model: any; as: string; required: boolean; where: { locale: any; }; through: { ...; }; }[]; through?: undefined; } | { ...; }'.
+
+[7m287[0m                 queryService
+[7m   [0m [91m                ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:43:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/service.dtos.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS1117: [0mAn object literal cannot have multiple properties with the same name.
+
+[7m27[0m             name: translationData.name || "",
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/service.dtos.ts[0m:[93m27[0m:[93m13[0m - [91merror[0m[90m TS1117: [0mAn object literal cannot have multiple properties with the same name.
+
+[7m27[0m             name: translationData.name || "",
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:44:16 error: Unknown column 'services.isFeatured' in 'field list'
+2023-05-02 20:46:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:46:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:47:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:47:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:47:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:48:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:48:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:48:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m17[0m:[93m62[0m - [91merror[0m[90m TS2339: [0mProperty 'post' does not exist on type 'ServiceRoute'.
+
+[7m17[0m         this.router.get(`${this.path}/getListFeatured`, this.post.getListFeatured);
+[7m  [0m [91m                                                             ~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 20:50:22 error: {"name":"SequelizeDatabaseError","parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'services.status' in 'where clause'","sql":"SELECT `services`.`id`, `services`.`parent_id`, `services`.`isFeatured`, `services`.`thumbnail`, `services`.`createdAt`, `services`.`updatedAt`, `translations`.`id` AS `translations.id`, `translations`.`service_id` AS `translations.service_id`, `translations`.`name` AS `translations.name`, `translations`.`description` AS `translations.description`, `translations`.`locale` AS `translations.locale`, `translations`.`slug` AS `translations.slug`, `translations`.`custom_slug` AS `translations.custom_slug`, `translations`.`meta_title` AS `translations.meta_title`, `translations`.`meta_description` AS `translations.meta_description`, `translations`.`meta_keyword` AS `translations.meta_keyword`, `translations`.`meta_robots` AS `translations.meta_robots`, `translations`.`canonica_link` AS `translations.canonica_link`, `translations`.`meta_image` AS `translations.meta_image`, `translations`.`meta_viewport` AS `translations.meta_viewport`, `image`.`id` AS `image.id`, `image`.`filename` AS `image.filename`, `image`.`disk` AS `image.disk`, `image`.`folder_id` AS `image.folder_id`, `image`.`path` AS `image.path`, `image`.`extension` AS `image.extension`, `image`.`mime` AS `image.mime`, `image`.`size` AS `image.size`, `image`.`width` AS `image.width`, `image`.`height` AS `image.height`, `image`.`alt` AS `image.alt`, `image`.`creator` AS `image.creator`, `image`.`editor` AS `image.editor`, `image`.`createdAt` AS `image.createdAt`, `image`.`updatedAt` AS `image.updatedAt` FROM `services` AS `services` INNER JOIN `service_translation` AS `translations` ON `services`.`id` = `translations`.`service_id` AND `translations`.`locale` = 'en' LEFT OUTER JOIN `medias` AS `image` ON `services`.`thumbnail` = `image`.`id` WHERE `services`.`isFeatured` = true AND `services`.`status` = 'active';"},"original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'services.status' in 'where clause'","sql":"SELECT `services`.`id`, `services`.`parent_id`, `services`.`isFeatured`, `services`.`thumbnail`, `services`.`createdAt`, `services`.`updatedAt`, `translations`.`id` AS `translations.id`, `translations`.`service_id` AS `translations.service_id`, `translations`.`name` AS `translations.name`, `translations`.`description` AS `translations.description`, `translations`.`locale` AS `translations.locale`, `translations`.`slug` AS `translations.slug`, `translations`.`custom_slug` AS `translations.custom_slug`, `translations`.`meta_title` AS `translations.meta_title`, `translations`.`meta_description` AS `translations.meta_description`, `translations`.`meta_keyword` AS `translations.meta_keyword`, `translations`.`meta_robots` AS `translations.meta_robots`, `translations`.`canonica_link` AS `translations.canonica_link`, `translations`.`meta_image` AS `translations.meta_image`, `translations`.`meta_viewport` AS `translations.meta_viewport`, `image`.`id` AS `image.id`, `image`.`filename` AS `image.filename`, `image`.`disk` AS `image.disk`, `image`.`folder_id` AS `image.folder_id`, `image`.`path` AS `image.path`, `image`.`extension` AS `image.extension`, `image`.`mime` AS `image.mime`, `image`.`size` AS `image.size`, `image`.`width` AS `image.width`, `image`.`height` AS `image.height`, `image`.`alt` AS `image.alt`, `image`.`creator` AS `image.creator`, `image`.`editor` AS `image.editor`, `image`.`createdAt` AS `image.createdAt`, `image`.`updatedAt` AS `image.updatedAt` FROM `services` AS `services` INNER JOIN `service_translation` AS `translations` ON `services`.`id` = `translations`.`service_id` AND `translations`.`locale` = 'en' LEFT OUTER JOIN `medias` AS `image` ON `services`.`thumbnail` = `image`.`id` WHERE `services`.`isFeatured` = true AND `services`.`status` = 'active';"},"sql":"SELECT `services`.`id`, `services`.`parent_id`, `services`.`isFeatured`, `services`.`thumbnail`, `services`.`createdAt`, `services`.`updatedAt`, `translations`.`id` AS `translations.id`, `translations`.`service_id` AS `translations.service_id`, `translations`.`name` AS `translations.name`, `translations`.`description` AS `translations.description`, `translations`.`locale` AS `translations.locale`, `translations`.`slug` AS `translations.slug`, `translations`.`custom_slug` AS `translations.custom_slug`, `translations`.`meta_title` AS `translations.meta_title`, `translations`.`meta_description` AS `translations.meta_description`, `translations`.`meta_keyword` AS `translations.meta_keyword`, `translations`.`meta_robots` AS `translations.meta_robots`, `translations`.`canonica_link` AS `translations.canonica_link`, `translations`.`meta_image` AS `translations.meta_image`, `translations`.`meta_viewport` AS `translations.meta_viewport`, `image`.`id` AS `image.id`, `image`.`filename` AS `image.filename`, `image`.`disk` AS `image.disk`, `image`.`folder_id` AS `image.folder_id`, `image`.`path` AS `image.path`, `image`.`extension` AS `image.extension`, `image`.`mime` AS `image.mime`, `image`.`size` AS `image.size`, `image`.`width` AS `image.width`, `image`.`height` AS `image.height`, `image`.`alt` AS `image.alt`, `image`.`creator` AS `image.creator`, `image`.`editor` AS `image.editor`, `image`.`createdAt` AS `image.createdAt`, `image`.`updatedAt` AS `image.updatedAt` FROM `services` AS `services` INNER JOIN `service_translation` AS `translations` ON `services`.`id` = `translations`.`service_id` AND `translations`.`locale` = 'en' LEFT OUTER JOIN `medias` AS `image` ON `services`.`thumbnail` = `image`.`id` WHERE `services`.`isFeatured` = true AND `services`.`status` = 'active';","parameters":{}}
+2023-05-02 21:16:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m21[0m:[93m73[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdClient' does not exist on type 'ServiceController'.
+
+[7m21[0m         this.router.get(`${this.path}/findByIdClient/:id`, this.service.findByIdClient);
+[7m  [0m [91m                                                                        ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/route/service.route.ts[0m:[93m21[0m:[93m73[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdClient' does not exist on type 'ServiceController'.
+
+[7m21[0m         this.router.get(`${this.path}/findByIdClient/:id`, this.service.findByIdClient);
+[7m  [0m [91m                                                                        ~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 21:17:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/modules/controllers/service.controller.ts[0m:[93m78[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdClient' does not exist on type 'ServiceService'.
+
+[7m78[0m             const data = await service.findByIdClient(req.params.id);
+[7m  [0m [91m                                       ~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/modules/controllers/service.controller.ts[0m:[93m78[0m:[93m40[0m - [91merror[0m[90m TS2339: [0mProperty 'findByIdClient' does not exist on type 'ServiceService'.
+
+[7m78[0m             const data = await service.findByIdClient(req.params.id);
+[7m  [0m [91m                                       ~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 21:17:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/service.service.ts[0m:[93m215[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot find name 'PostDTO'.
+
+[7m215[0m             return PostDTO.transformDetailClient({ ...post, postRelated, posts });
+[7m   [0m [91m                   ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/service.service.ts[0m:[93m215[0m:[93m20[0m - [91merror[0m[90m TS2304: [0mCannot find name 'PostDTO'.
+
+[7m215[0m             return PostDTO.transformDetailClient({ ...post, postRelated, posts });
+[7m   [0m [91m                   ~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 21:18:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/service.service.ts[0m:[93m215[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'transformDetailClient' does not exist on type 'typeof ServiceDTO'.
+
+[7m215[0m             return ServiceDTO.transformDetailClient({ ...post, postRelated, posts });
+[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/service.service.ts[0m:[93m215[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'transformDetailClient' does not exist on type 'typeof ServiceDTO'.
+
+[7m215[0m             return ServiceDTO.transformDetailClient({ ...post, postRelated, posts });
+[7m   [0m [91m                              ~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 23:34:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/infra/sequelize/models/index.ts[0m:[93m5[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/config/config"' has no default export.
+
+[7m5[0m import config from "../config/config";
+[7m [0m [91m       ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/infra/sequelize/models/index.ts[0m:[93m5[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/config/config"' has no default export.
+
+[7m5[0m import config from "../config/config";
+[7m [0m [91m       ~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 23:36:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/infra/sequelize/models/index.ts[0m:[93m5[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/config/config"' has no default export.
+
+[7m5[0m import config from "../config/config";
+[7m [0m [91m       ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/infra/sequelize/models/index.ts[0m:[93m5[0m:[93m8[0m - [91merror[0m[90m TS1192: [0mModule '"/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/config/config"' has no default export.
+
+[7m5[0m import config from "../config/config";
+[7m [0m [91m       ~~~~~~[0m
+
+    at createTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:904:12)
+    at Module.require (node:internal/modules/cjs/loader:1093:19)
+2023-05-02 23:42:13 error: uncaughtException: ServiceTranslation.beforeBulkInsert is not a function
+TypeError: ServiceTranslation.beforeBulkInsert is not a function
+    at module.exports (/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/models/serviceTranslation.model.ts:105:24)
+    at /Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/models/index.ts:38:63
+    at Array.map (<anonymous>)
+    at createModels (/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/models/index.ts:37:10)
+    at Object.<anonymous> (/Users/toannguyen/Documents/Source/tn-uptech-backend/src/infra/sequelize/models/index.ts:63:16)
+    at Module._compile (node:internal/modules/cjs/loader:1191:14)
+    at Module.m._compile (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1245:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/toannguyen/Documents/Source/tn-uptech-backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1069:32)

@@ -1,0 +1,227 @@
+.btn {
+  @apply inline-flex items-center no-underline cursor-pointer py-[12px] px-[20px] bg-transparent border border-transparent transition duration-150 ease-in-out justify-center;
+
+  @media (prefers-reduced-motion: reduce) {
+    @apply transition-none;
+  }
+}
+
+.btn-primary {
+  @apply bg-primary items-center justify-center overflow-hidden relative text-white z-10 rounded-[12px];
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  &:hover {
+    @apply bg-white border border-secondary;
+  }
+}
+
+.btn-orange {
+  @apply bg-orange-100 px-[1rem] py-[8px] rounded-[6px] text-white  flex items-center space-x-[8px] font-medium;
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  &:hover {
+    @apply bg-orange-200;
+  }
+}
+
+.btn-prime {
+  @apply bg-prime px-[1rem] py-[8px] rounded-[6px] text-white  flex items-center space-x-[8px] font-medium;
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+
+  &:hover {
+    @apply bg-prime opacity-90;
+  }
+}
+
+.btn-outline-prime {
+  @apply bg-white border border-prime text-prime px-[1rem] py-[8px] rounded-[6px]  flex items-center space-x-[8px] font-medium;
+  transition: all 0.4s ease;
+
+  &:hover {
+    @apply bg-prime opacity-90 text-white;
+  }
+}
+
+.btn-gray-outline {
+  @apply bg-white px-[1rem] py-[8px] rounded-[6px] text-gray-900 flex items-center font-medium border-gray-200 border;
+  transition: all 0.4s ease;
+  &:hover {
+    @apply bg-gray-900 text-white;
+  }
+}
+
+.btn-green {
+  @apply bg-green-400 rounded-[4px] text-white p-[8px] min-w-[80px];
+  transition: all 0.4s ease;
+
+  &:hover {
+    @apply bg-white border border-green-400 text-green-400;
+  }
+}
+
+.btn-red {
+  @apply bg-red-600 rounded-[4px] text-white p-[8px] min-w-[80px];
+  transition: all 0.4s ease;
+
+  &:hover {
+    @apply bg-white border border-red-600 text-red-600;
+  }
+}
+
+.btn-primary-disable {
+  @apply bg-gray-600 flex items-center justify-center overflow-hidden relative text-white z-10 rounded-full;
+}
+
+.btn-secondary {
+  @apply flex items-center justify-center overflow-hidden relative z-10 bg-white text-black border border-gray-800;
+  transition: all 0.4s ease;
+}
+
+.btn-secondary.active {
+  @apply border-red-500 text-white #{!important};
+
+  &::after {
+    @apply w-[150%] h-[250px] right-0 border-red-500 text-white;
+  }
+}
+
+.btn-secondary-disable {
+  @apply bg-white flex items-center justify-center overflow-hidden relative text-gray-600 border border-gray-400 z-10 rounded-full;
+  transition: all 0.4s ease;
+}
+
+.btn-accent {
+  @apply bg-transparent flex items-center justify-center overflow-hidden relative text-white z-10 rounded-full;
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  &::after {
+    content: "";
+    @apply w-0 h-0 absolute right-0 bottom-[-10px] z-[-1] bg-red-500;
+    transition: all 0.6s ease;
+    border-radius: 100% 0% 0% 100% / 100% 30% 70% 0%;
+  }
+
+  &::before {
+    content: "";
+    @apply w-full h-full absolute top-0 left-0 z-[-2] bg-gray-400;
+  }
+
+  &:hover,
+  &:focus {
+    &::after {
+      @apply w-[150%] h-[250px] right-0;
+    }
+  }
+}
+
+.btn-primary-square {
+  @apply bg-transparent flex items-center justify-center overflow-hidden relative text-white z-10 border-gray-800 rounded-sm;
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  &::after {
+    content: "";
+    @apply w-0 h-0 absolute right-0 bottom-[-10px] z-[-1] bg-red-500;
+    transition: all 0.6s ease;
+    border-radius: 100% 0% 0% 100% / 100% 30% 70% 0%;
+  }
+
+  &::before {
+    content: "";
+    @apply w-full h-full absolute top-0 left-0 z-[-2] bg-gray-800;
+  }
+
+  &:hover,
+  &:focus {
+    @apply border-red-500;
+
+    &::after {
+      @apply w-[150%] h-[250px] right-0;
+    }
+  }
+}
+
+.btn-primary-square-disable {
+  @apply bg-gray-600 flex items-center justify-center overflow-hidden relative text-white z-10 rounded-sm;
+}
+
+.btn-secondary-square {
+  @apply bg-white flex items-center justify-center overflow-hidden relative text-black border border-gray-800 z-10 rounded-sm;
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  &::after {
+    content: "";
+    @apply w-0 h-0 absolute right-0 bottom-[-10px] z-[-1] bg-red-500 text-white border-red-500;
+    transition: all 0.6s ease;
+    border-radius: 100% 0% 0% 100% / 100% 30% 70% 0%;
+  }
+
+  &::before {
+    content: "";
+    @apply w-full h-full absolute top-0 left-0 z-[-2] bg-white text-black;
+  }
+
+  &:hover,
+  &:focus {
+    @apply border-red-500 text-white #{!important};
+
+    &::after {
+      @apply w-[150%] h-[250px] right-0 border-red-500 text-white;
+    }
+  }
+}
+
+.btn-secondary-square-disable {
+  @apply bg-white flex items-center justify-center overflow-hidden relative text-gray-600 border border-gray-400 z-10 rounded-sm;
+  transition: all 0.4s ease;
+}
+
+.btn-primary-submit {
+  @apply bg-transparent flex items-center justify-center overflow-hidden relative text-white z-10 border-gray-800 rounded-sm;
+  transition: all 0.4s ease;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+
+  &::after {
+    content: "";
+    @apply w-0 h-0 absolute right-0 bottom-[-10px] z-[-1] bg-red-500;
+    transition: all 0.6s ease;
+    border-radius: 100% 0% 0% 100% / 100% 30% 70% 0%;
+  }
+
+  &::before {
+    content: "";
+    @apply w-full h-full absolute top-0 left-0 z-[-2] bg-black;
+  }
+
+  &:hover,
+  &:focus {
+    @apply border-red-500;
+
+    &::after {
+      @apply w-[150%] h-[250px] right-0;
+    }
+  }
+}

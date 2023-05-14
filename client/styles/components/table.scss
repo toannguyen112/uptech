@@ -1,0 +1,24 @@
+.table {
+  @apply align-middle shadow sm:rounded-lg min-w-full whitespace-nowrap text-[14px] min-h-[13rem];
+  table {
+    @apply min-w-full;
+  }
+  thead {
+    @apply bg-[#f8f9fa];
+  }
+  tbody {
+    @apply bg-white border-t border-gray-200;
+  }
+  tr {
+    @apply hover:bg-[#f8f9fa];
+    &:not(:last-child) {
+      @apply border-b border-gray-200;
+    }
+  }
+  th {
+    @apply px-6 h-[3.5em] font-medium bg-[#f8f9fa] text-left uppercase text-[#495057];
+  }
+  td {
+    @apply px-6 py-4 whitespace-pre-line text-[#495057];
+  }
+}

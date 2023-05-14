@@ -1,0 +1,140 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+@import "components/type";
+@import "components/input";
+@import "components/form";
+@import "components/fonts";
+@import "components/button";
+@import "components/breadcrumb";
+@import "components/table";
+@import "components/sidebar.scss";
+@import "components/pagination.scss";
+@import "components/navigation.scss";
+@import "components/loading.scss";
+@import "components/badge.scss";
+@import "components/media.scss";
+@import "react-toastify/dist/ReactToastify.css";
+@import "components/select";
+
+//theme
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+//core
+@import "primereact/resources/primereact.min.css";
+
+//icons
+@import "primeicons/primeicons.css";
+
+@layer base {
+  body {
+    --topbar-height: 4rem;
+    --sidebar-width: 14rem;
+    @apply text-white text-sm;
+  }
+
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h2 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sidebar {
+    @apply overflow-y-auto z-10;
+  }
+
+  svg,
+  img {
+    @apply max-w-full max-h-full inline-block;
+  }
+
+  textarea {
+    @apply resize-none;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+.text-stroke {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-strokewidth: 1px;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-strokewidth: 2px;
+  opacity: 0.4;
+}
+
+.checkbox {
+  input[type="checkbox"] {
+    @apply hidden;
+  }
+
+  span {
+    @apply h-[18px] w-[18px] rounded-[2px] border border-[#4B5563] relative inline-block;
+  }
+
+  [type="checkbox"]:checked + span:before {
+    content: url("../public/svg/icon-checkbox.svg");
+    @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute;
+  }
+}
+
+.left-from-sidebar {
+  left: var(--sidebar-width);
+}
+
+.card {
+  @apply bg-white py-[40px] px-[20px] rounded-[4px] shadow-sm;
+}
+
+.slide {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tag {
+  @apply text-gray-500 leading-[160%] py-[6px] px-[1rem] cursor-pointer hover:border-[#155EEF] body-2 hover:text-[#155EEF] border border-gray-300 rounded-[8px];
+}
+
+.tag.active {
+  @apply leading-[160%] py-[6px] px-[1rem] cursor-pointer border-[#155EEF]  body-2 text-[#155EEF] border  rounded-[8px];
+}

@@ -1,0 +1,28 @@
+{
+  "page.sidebar.das": "Tổng quan",
+  "page.sidebar.post": "Bài viết",
+  "page.sidebar.project": "Dự án",
+  "page.sidebar.ceo": "Ceo",
+  "page.sidebar.role": "Vai trò",
+  "page.sidebar.folder": "Quản lí tệp",
+  "page.sidebar.job": "Tuyển dụng",
+  "page.sidebar.account": "Tài khoản",
+  "page.sidebar.banner": "Banner",
+  "page.sidebar.branchs": "Lĩnh vực",
+  "page.sidebar.categories": "Danh mục",
+  "page.sidebar.content": "Nội dung",
+  "page.sidebar.services": "Dịch vụ",
+  "page.sidebar.setting": "Cài đặt",
+  "page.sidebar.logout": "Đăng xuất",
+  "page.sidebar.permission": "Danh sách quyền",
+  "page.sidebar.recruitments": "Ứng tuyển",
+  "page.sidebar.contacts": "Liên hệ",
+
+  "page.admin.btn_new": "Tạo mới",
+  "page.admin.btn_delete": "Xóa",
+  "page.admin.btn_update": "Cập nhật",
+  "page.admin.btn_create_folder": "Tạo mới folder",
+  "page.admin.btn_choosen_folder": "Chọn tệp"
+
+}
+
