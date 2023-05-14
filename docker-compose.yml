@@ -2,54 +2,60 @@ version: '3.8'
 
 services:
  mysqldb:
-   image: mysql:8.0.32
-   restart: unless-stopped
-   env_file: ./.env
-   environment:
-     - MYSQL_ROOT_PASSWORD=$DB_PASS
-     - MYSQL_DATABASE=$DB_NAME
-   ports:
-     - $DB_PORT:$DB_PORT
-   volumes:
-     - db:/var/lib/mysql
+    image: mysql:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=$MYSQLDB_ROOT_PASSWORD
+      - MYSQL_DATABASE=$MYSQLDB_DATABASE
+    ports:
+      - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
+    volumes:
+      - db:/var/lib/mysql
 
  api:
    depends_on:
      - mysqldb
-   build: ./tn-uptech-backend
-   restart: unless-stopped
+   build: 
+      dockerfile: Dockerfile
+      context: "./server"
+   container_name: node_server_container      
    env_file: ./.env
    ports:
-     - $PORT:$PORT
+      - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
    environment:
-     - DB_HOST=mysqldb
-     - DB_USER=$DB_USER
-     - DB_PASSWORD=$DB_PASS
-     - DB_NAME=$DB_NAME
-     - DB_PORT=$DB_PORT
+      - DB_HOST=mysqldb
+      - DB_USER=$MYSQLDB_USER
+      - DB_PASSWORD=$MYSQLDB_ROOT_PASSWORD
+      - DB_NAME=$MYSQLDB_DATABASE
+      - DB_PORT=$MYSQLDB_DOCKER_PORT
    stdin_open: true
    tty: true
+   links:
+      - mysqldb
 
-jenkins:
-    image: jenkins/jenkins:lts
-    ports:
-      - "8080:8080"
-    volumes:
-      - jenkins-data:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock   
-
-nginx:
-    depends_on:
+ client:
+   depends_on:
+     - mysqldb
+     - api
+   build: 
+      dockerfile: Dockerfile
+      context: "./client"
+   container_name: client_container         
+   ports:
+     - 3000:3000
+   links:
       - api
-      - client
-    restart: always
-    build:
-      dockerfile: Dockerfile.dev
-      context: ./nginx
+   command: yarn run dev
+
+ jenkins:
+    image: jenkins/jenkins:lts
+    container_name: jenkins
+    privileged: true
+    user: root
     ports:
-      - "3050:80"
+     - 8080:8080
+     - 50000:50000    
 
 
 volumes: 
- db:
- jenkins-data:
+  db:  

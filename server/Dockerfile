@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR /tn-uptech-backend
+WORKDIR /app
 COPY package*.json ./
 RUN yarn install
 COPY . .

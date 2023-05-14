@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import CountUp from 'react-countup';
 import CeoItem from '../components/CeoItem';
 import SocialMeta from '../components/SocialMeta';
 import { useRouter } from 'next/router';
@@ -202,11 +201,11 @@ function About() {
                                         <div className="space-y-[24px]">
                                             <div className="flex items-center space-x-[20px]">
                                                 <Image src={item.image} width='64px' height='64px' />
-                                                <div className="text-[48px] text-white leading-[150%] font-display font-semibold" >
+                                                {/* <div className="text-[48px] text-white leading-[150%] font-display font-semibold" >
                                                     <CountUp
                                                         enableScrollSpy={true}
                                                         end={Number(item.number)} />+
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className='body-2 font-normal'>
                                                 {item.description}
