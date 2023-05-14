@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+ mysqldb:
+   image: mysql:8.0.32
+   restart: unless-stopped
+   env_file: ./.env
+   environment:
+     - MYSQL_ROOT_PASSWORD=$DB_PASS
+     - MYSQL_DATABASE=$DB_NAME
+   ports:
+     - $DB_PORT:$DB_PORT
+   volumes:
+     - db:/var/lib/mysql
+
+ api:
+   depends_on:
+     - mysqldb
+   build: ./tn-uptech-backend
+   restart: unless-stopped
+   env_file: ./.env
+   ports:
+     - $PORT:$PORT
+   environment:
+     - DB_HOST=mysqldb
+     - DB_USER=$DB_USER
+     - DB_PASSWORD=$DB_PASS
+     - DB_NAME=$DB_NAME
+     - DB_PORT=$DB_PORT
+   stdin_open: true
+   tty: true
+
+jenkins:
+    image: jenkins/jenkins:lts
+    ports:
+      - "8080:8080"
+    volumes:
+      - jenkins-data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock   
+
+nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - web
+      - api
+
+volumes: 
+ db:
+ jenkins-data:
