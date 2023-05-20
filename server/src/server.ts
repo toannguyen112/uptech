@@ -16,8 +16,10 @@ import { BranchRoute } from './route/branch.route';
 import { ServiceRoute } from './route/service.route';
 import { LogsRoute } from './route/logs.route';
 import { ContactRoute } from './route/contact.route ';
+import { AppRoute } from './route/app.route';
 
 const routers = [
+    new AppRoute(),
     new LogsRoute(),
     new AdminRoute(),
     new ServiceRoute(),
